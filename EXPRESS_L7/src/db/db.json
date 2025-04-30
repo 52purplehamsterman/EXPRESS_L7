@@ -1,0 +1,22 @@
+{
+    "foods": [
+      {
+        "id": "1",
+        "name": "Pizza Margherita",
+        "price": 15,
+        "isAvailable": true,
+        "createdAt": "2023-10-01T12:00:00Z",
+        "ingredients": ["cheese", "tomato sauce", "basil"]
+      }
+    ],
+    "orders": [
+      {
+        "id": "1",
+        "customerName": "John Doe",
+        "totalPrice": 30,
+        "isDelivered": false,
+        "orderedAt": "2023-10-01T12:05:00Z",
+        "items": ["1"]
+      }
+    ]
+  }
